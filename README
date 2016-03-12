@@ -1,0 +1,9 @@
+# jargonary-api
+API for jargonary.org
+
+# Hacking
+
+1. Rename `init.sh.sample` to `init.sh`
+2. Enter DB Creds into `init.sh`
+3. Load the init file: `source init.sh`
+4. Run DB Migrations `make migrate`
